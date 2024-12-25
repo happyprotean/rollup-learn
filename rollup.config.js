@@ -1,9 +1,11 @@
+import json from '@rollup/plugin-json'
+
 // ---cut-start---
 /** @type {import('rollup').RollupOptions[]} */
 // ---cut-end---
 export default [
 	{
-		input: 'main.js',
+		input: 'src/main.js',
 		output: [
 			{
 				file: 'out/iife-bundle.js',
@@ -21,6 +23,7 @@ export default [
 				file: 'out/es-bundle.js',
 				format: 'es'
       }
-		]
+		],
+		plugins: [json()]
 	}
 ];

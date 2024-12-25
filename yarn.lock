@@ -2,6 +2,22 @@
 # yarn lockfile v1
 
 
+"@rollup/plugin-json@^6.1.0":
+  version "6.1.0"
+  resolved "http://r.npm.sankuai.com/@rollup/plugin-json/download/@rollup/plugin-json-6.1.0.tgz#fbe784e29682e9bb6dee28ea75a1a83702e7b805"
+  integrity sha1-++eE4paC6btt7ijqdaGoNwLnuAU=
+  dependencies:
+    "@rollup/pluginutils" "^5.1.0"
+
+"@rollup/pluginutils@^5.1.0":
+  version "5.1.4"
+  resolved "http://r.npm.sankuai.com/@rollup/pluginutils/download/@rollup/pluginutils-5.1.4.tgz#bb94f1f9eaaac944da237767cdfee6c5b2262d4a"
+  integrity sha1-u5Tx+eqqyUTaI3dnzf7mxbImLUo=
+  dependencies:
+    "@types/estree" "^1.0.0"
+    estree-walker "^2.0.2"
+    picomatch "^4.0.2"
+
 "@rollup/rollup-android-arm-eabi@4.29.1":
   version "4.29.1"
   resolved "http://r.npm.sankuai.com/@rollup/rollup-android-arm-eabi/download/@rollup/rollup-android-arm-eabi-4.29.1.tgz#9bd38df6a29afb7f0336d988bc8112af0c8816c0"
@@ -97,15 +113,25 @@
   resolved "http://r.npm.sankuai.com/@rollup/rollup-win32-x64-msvc/download/@rollup/rollup-win32-x64-msvc-4.29.1.tgz#c82f04a09ba481e13857d6f2516e072aaa51b7f4"
   integrity sha1-yC8EoJukgeE4V9byUW4HKqpRt/Q=
 
-"@types/estree@1.0.6":
+"@types/estree@1.0.6", "@types/estree@^1.0.0":
   version "1.0.6"
   resolved "http://r.npm.sankuai.com/@types/estree/download/@types/estree-1.0.6.tgz#628effeeae2064a1b4e79f78e81d87b7e5fc7b50"
   integrity sha1-Yo7/7q4gZKG055946B2Ht+X8e1A=
+
+estree-walker@^2.0.2:
+  version "2.0.2"
+  resolved "http://r.npm.sankuai.com/estree-walker/download/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
+  integrity sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=
 
 fsevents@~2.3.2:
   version "2.3.3"
   resolved "http://r.npm.sankuai.com/fsevents/download/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=
+
+picomatch@^4.0.2:
+  version "4.0.2"
+  resolved "http://r.npm.sankuai.com/picomatch/download/picomatch-4.0.2.tgz#77c742931e8f3b8820946c76cd0c1f13730d1dab"
+  integrity sha1-d8dCkx6PO4gglGx2zQwfE3MNHas=
 
 rollup@^4.29.1:
   version "4.29.1"
