@@ -1,5 +1,6 @@
 import json from '@rollup/plugin-json'
 import terser from '@rollup/plugin-terser'
+import resolve from '@rollup/plugin-node-resolve'
 
 // ---cut-start---
 /** @type {import('rollup').RollupOptions[]} */
@@ -10,9 +11,9 @@ export default [
 		output: [
       {
 				dir: 'dist',
-				format: 'es'
+				format: 'es',
       }
 		],
-		plugins: [json()]
+		plugins: [json(), resolve()]
 	}
 ];

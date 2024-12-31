@@ -49,6 +49,17 @@
   dependencies:
     "@rollup/pluginutils" "^5.1.0"
 
+"@rollup/plugin-node-resolve@^16.0.0":
+  version "16.0.0"
+  resolved "http://r.npm.sankuai.com/@rollup/plugin-node-resolve/download/@rollup/plugin-node-resolve-16.0.0.tgz#b1a0594661f40d7b061d82136e847354ff85f211"
+  integrity sha1-saBZRmH0DXsGHYITboRzVP+F8hE=
+  dependencies:
+    "@rollup/pluginutils" "^5.0.1"
+    "@types/resolve" "1.20.2"
+    deepmerge "^4.2.2"
+    is-module "^1.0.0"
+    resolve "^1.22.1"
+
 "@rollup/plugin-terser@^0.4.4":
   version "0.4.4"
   resolved "http://r.npm.sankuai.com/@rollup/plugin-terser/download/@rollup/plugin-terser-0.4.4.tgz#15dffdb3f73f121aa4fbb37e7ca6be9aeea91962"
@@ -58,7 +69,7 @@
     smob "^1.0.0"
     terser "^5.17.4"
 
-"@rollup/pluginutils@^5.1.0":
+"@rollup/pluginutils@^5.0.1", "@rollup/pluginutils@^5.1.0":
   version "5.1.4"
   resolved "http://r.npm.sankuai.com/@rollup/pluginutils/download/@rollup/pluginutils-5.1.4.tgz#bb94f1f9eaaac944da237767cdfee6c5b2262d4a"
   integrity sha1-u5Tx+eqqyUTaI3dnzf7mxbImLUo=
@@ -167,6 +178,11 @@
   resolved "http://r.npm.sankuai.com/@types/estree/download/@types/estree-1.0.6.tgz#628effeeae2064a1b4e79f78e81d87b7e5fc7b50"
   integrity sha1-Yo7/7q4gZKG055946B2Ht+X8e1A=
 
+"@types/resolve@1.20.2":
+  version "1.20.2"
+  resolved "http://r.npm.sankuai.com/@types/resolve/download/@types/resolve-1.20.2.tgz#97d26e00cd4a0423b4af620abecf3e6f442b7975"
+  integrity sha1-l9JuAM1KBCO0r2IKvs8+b0QreXU=
+
 acorn@^8.8.2:
   version "8.14.0"
   resolved "http://r.npm.sankuai.com/acorn/download/acorn-8.14.0.tgz#063e2c70cac5fb4f6467f0b11152e04c682795b0"
@@ -182,6 +198,11 @@ commander@^2.20.0:
   resolved "http://r.npm.sankuai.com/commander/download/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
 
+deepmerge@^4.2.2:
+  version "4.3.1"
+  resolved "http://r.npm.sankuai.com/deepmerge/download/deepmerge-4.3.1.tgz#44b5f2147cd3b00d4b56137685966f26fd25dd4a"
+  integrity sha1-RLXyFHzTsA1LVhN2hZZvJv0l3Uo=
+
 estree-walker@^2.0.2:
   version "2.0.2"
   resolved "http://r.npm.sankuai.com/estree-walker/download/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
@@ -191,6 +212,35 @@ fsevents@~2.3.2:
   version "2.3.3"
   resolved "http://r.npm.sankuai.com/fsevents/download/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=
+
+function-bind@^1.1.2:
+  version "1.1.2"
+  resolved "http://r.npm.sankuai.com/function-bind/download/function-bind-1.1.2.tgz#2c02d864d97f3ea6c8830c464cbd11ab6eab7a1c"
+  integrity sha1-LALYZNl/PqbIgwxGTL0Rq26rehw=
+
+hasown@^2.0.2:
+  version "2.0.2"
+  resolved "http://r.npm.sankuai.com/hasown/download/hasown-2.0.2.tgz#003eaf91be7adc372e84ec59dc37252cedb80003"
+  integrity sha1-AD6vkb563DcuhOxZ3DclLO24AAM=
+  dependencies:
+    function-bind "^1.1.2"
+
+is-core-module@^2.16.0:
+  version "2.16.1"
+  resolved "http://r.npm.sankuai.com/is-core-module/download/is-core-module-2.16.1.tgz#2a98801a849f43e2add644fbb6bc6229b19a4ef4"
+  integrity sha1-KpiAGoSfQ+Kt1kT7trxiKbGaTvQ=
+  dependencies:
+    hasown "^2.0.2"
+
+is-module@^1.0.0:
+  version "1.0.0"
+  resolved "http://r.npm.sankuai.com/is-module/download/is-module-1.0.0.tgz#3258fb69f78c14d5b815d664336b4cffb6441591"
+  integrity sha1-Mlj7afeMFNW4FdZkM2tM/7ZEFZE=
+
+path-parse@^1.0.7:
+  version "1.0.7"
+  resolved "http://r.npm.sankuai.com/path-parse/download/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha1-+8EUtgykKzDZ2vWFjkvWi77bZzU=
 
 picomatch@^4.0.2:
   version "4.0.2"
@@ -203,6 +253,15 @@ randombytes@^2.1.0:
   integrity sha1-32+ENy8CcNxlzfYpE0mrekc9Tyo=
   dependencies:
     safe-buffer "^5.1.0"
+
+resolve@^1.22.1:
+  version "1.22.10"
+  resolved "http://r.npm.sankuai.com/resolve/download/resolve-1.22.10.tgz#b663e83ffb09bbf2386944736baae803029b8b39"
+  integrity sha1-tmPoP/sJu/I4aURza6roAwKbizk=
+  dependencies:
+    is-core-module "^2.16.0"
+    path-parse "^1.0.7"
+    supports-preserve-symlinks-flag "^1.0.0"
 
 rollup@^4.29.1:
   version "4.29.1"
@@ -262,6 +321,11 @@ source-map@^0.6.0:
   resolved "http://r.npm.sankuai.com/source-map/download/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
 
+supports-preserve-symlinks-flag@^1.0.0:
+  version "1.0.0"
+  resolved "http://r.npm.sankuai.com/supports-preserve-symlinks-flag/download/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
+  integrity sha1-btpL00SjyUrqN21MwxvHcxEDngk=
+
 terser@^5.17.4:
   version "5.37.0"
   resolved "http://r.npm.sankuai.com/terser/download/terser-5.37.0.tgz#38aa66d1cfc43d0638fab54e43ff8a4f72a21ba3"
@@ -271,3 +335,8 @@ terser@^5.17.4:
     acorn "^8.8.2"
     commander "^2.20.0"
     source-map-support "~0.5.20"
+
+the-answer@^1.0.0:
+  version "1.0.0"
+  resolved "http://r.npm.sankuai.com/the-answer/download/the-answer-1.0.0.tgz#6dbc4c9db469d4f437120b09e44700fc320f170b"
+  integrity sha1-bbxMnbRp1PQ3EgsJ5EcA/DIPFws=
