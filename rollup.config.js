@@ -14,6 +14,7 @@ export default [
 				format: 'es',
       }
 		],
+		external: ['dayjs'],
 		plugins: [json(), resolve()]
 	}
 ];

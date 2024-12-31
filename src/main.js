@@ -1,5 +1,6 @@
 import { add, getVersion } from "./util.js";
 import answer from 'the-answer'
+import * as dayjs from 'dayjs'
 
 function main() {
   console.log(add(1, 2))
@@ -8,6 +9,7 @@ function main() {
     console.log('dynamic -> ', foo())
   })
   console.log('the answer is -> ', answer)
+  console.log('dayjs -> ', dayjs().format())
 }
 
 main()

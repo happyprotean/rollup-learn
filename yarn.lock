@@ -198,6 +198,11 @@ commander@^2.20.0:
   resolved "http://r.npm.sankuai.com/commander/download/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
 
+dayjs@^1.11.13:
+  version "1.11.13"
+  resolved "http://r.npm.sankuai.com/dayjs/download/dayjs-1.11.13.tgz#92430b0139055c3ebb60150aa13e860a4b5a366c"
+  integrity sha1-kkMLATkFXD67YBUKoT6GCktaNmw=
+
 deepmerge@^4.2.2:
   version "4.3.1"
   resolved "http://r.npm.sankuai.com/deepmerge/download/deepmerge-4.3.1.tgz#44b5f2147cd3b00d4b56137685966f26fd25dd4a"
