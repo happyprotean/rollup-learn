@@ -42,6 +42,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@rollup/plugin-alias@^5.1.1":
+  version "5.1.1"
+  resolved "http://r.npm.sankuai.com/@rollup/plugin-alias/download/@rollup/plugin-alias-5.1.1.tgz#53601d88cda8b1577aa130b4a6e452283605bf26"
+  integrity sha1-U2AdiM2osVd6oTC0puRSKDYFvyY=
+
 "@rollup/plugin-json@^6.1.0":
   version "6.1.0"
   resolved "http://r.npm.sankuai.com/@rollup/plugin-json/download/@rollup/plugin-json-6.1.0.tgz#fbe784e29682e9bb6dee28ea75a1a83702e7b805"

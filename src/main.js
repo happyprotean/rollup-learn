@@ -1,4 +1,4 @@
-import { add, getVersion } from "./util.js";
+import { add, getVersion } from "utils";
 import answer from 'the-answer'
 import * as dayjs from 'dayjs'
 
